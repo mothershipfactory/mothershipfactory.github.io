@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #1f1f3f;
+  text-align: center;
+  color: #efffff; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', sans-serif;
+  color: #efffff; }
+
+h1 {
+  font-size: 1.6em; }
+
+p {
+  font-size: 1.2em; }
+
+a.blue {
+  color: #398dcd !important; }
+
+nav .small {
+  font-size: 0.8em !important;
+  padding-left: 1em; }
+
+header {
+  padding: 100px 0; }
+  header h1 {
+    color: #398dcd;
+    margin: 0.6em 0 0.8em 0;
+    font-size: 2.4em; }
+
+main section {
+  border-top: 1px solid rgba(57, 141, 205, 0.3);
+  margin: 5em 0;
+  padding: 5em 0; }
+
+.founder h1 {
+  font-size: 1.8em;
+  padding-bottom: 0.6em; }
+.founder img {
+  border-radius: 3px; }
+
+.top-bar {
+  background: none repeat scroll 0 0 #1f1f3f; }
+  .top-bar .nav-button {
+    background-color: #1f1f3f !important; }
+
+.bold {
+  font-weight: 600; }
+
+.light {
+  font-weight: 300; }
+
+.large-text-left {
+  text-align: left; }
+
+@media only screen and (max-width: 40em) {
+  body {
+    font-size: 0.9em !important; }
+
+  h1 {
+    font-size: 2em !important; }
+
+  .top-bar {
+    display: none; }
+
+  .large-text-left {
+    text-align: center; }
+
+  .products img, .founder img {
+    width: 90px !important;
+    padding-bottom: 2em; }
+  .products h1, .founder h1 {
+    font-size: 1.6em !important;
+    padding-bottom: 1.4em; }
+
+  .founder {
+    display: none; }
+    .founder img {
+      width: 140px; }
+
+  .info .columns {
+    font-size: 0.9em;
+    padding: 0 0 3em 0; } }
